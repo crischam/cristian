@@ -1,0 +1,23 @@
+git init -> para inicializar un repositorio 
+
+git commit -am "comentario"  -> solo cuando se modifica un archivo 
+
+git checkout 'nombredel archivo' -> para des hacer los cambios 
+
+git restore --staged 'nombre del archivo ' -> para sacar los archivos del area de preparacion 
+
+git commit -> abre un editor se le da (i) se escribe el comentario , se le da esc  y (wq) para salir 
+
+git log -> para ver la linea de tiempo de los comentarios en cada commit  
+
+git diff -> para ver exactamente que cambios fueron realizados 
+
+git diff stat -> solo nos dice la cantidad de archivos cambiados modificados o eliminados (estadisticas )
+
+git checkout ´7digitos del hash´ -> volvemos al estatus donde seguardo en ese momento el proyecto 
+
+git checkout master ->  para volver a la actualidad 
+
+git log --oneline -> me muestra todos los commits en linea mas facil de ver 
+
+ver los %%% para filtrar y modificar la impresion de la info (buscar en pagina oficial )
